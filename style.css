@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
+
+section{
+    min-height: 100vh;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+.nav-link{
+    color:white
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 45vh;
+}
+
+.illustration{
+    height: 30vh;
+}
+
+.footer{
+    height: 20vh;
+    background-color: black;
+}
+
+.extra-space{
+    height: 10.5vh;
+}
+
+.card{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+         box-shadow: 0 10px 6px -6px #777;
+}
+
+
+.middle .inner{
+    height: 100%;
+}
+
+.left-box{
+    padding-top: auto;
+}
+
+.teacher-image{
+    width: 70%;
+    border-radius: 50%;
+    object-fit: scale-down;
+}
+
+#contactus{
+    display: flex;
+    flex-direction: column;
+}
+
+#contactus .middle{
+    flex-grow: 1;
+}
+
+
+.facebook{
+    color: 	#4267B2;
+}
+
+.instagram{
+    color: palevioletred;
+}
+
+.twitter{
+    color:#1DA1F2;
+}
+
+.phone{
+    color: green;
+}
+
+.location{
+    color: blue;
+}
+
+.heading{
+    font-family: 'Mate SC', serif;
+    font-size: 1.5rem;
+}
+
+.sub-heading{
+    font-family: 'Lora', serif;
+}
+
+.avatar {
+	width: 30vh;
+	height: 30vh;
+  border-radius: 50%;
+}
+
+iframe{
+    height: 50vh;
+    width: 70%;
+}
