@@ -31,12 +31,13 @@ header{
 }
 
 .footer{
-    height: 20vh;
+    padding: 30px 0px;
+    min-height: 20vh;
     background-color: black;
 }
 
 .extra-space{
-    height: 10.5vh;
+    height: 10vh;
 }
 
 .card{
@@ -92,7 +93,6 @@ header{
 
 .heading{
     font-family: 'Mate SC', serif;
-    font-size: 1.5rem;
 }
 
 .sub-heading{
@@ -105,7 +105,17 @@ header{
   border-radius: 50%;
 }
 
+.review-img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+}
+
 iframe{
     height: 50vh;
     width: 70%;
+}
+
+.left-box, .right-box{
+    margin: 30px 0px;
 }
