@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
 
 section{
@@ -40,10 +41,9 @@ header{
     height: 10vh;
 }
 
-.card{
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-    -moz-box-shadow: 0 10px 6px -6px #777;
-         box-shadow: 0 10px 6px -6px #777;
+
+.logo{
+    width: 40%;
 }
 
 
@@ -96,7 +96,7 @@ header{
 }
 
 .sub-heading{
-    font-family: 'Lora', serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .avatar {
@@ -118,4 +118,26 @@ iframe{
 
 .left-box, .right-box{
     margin: 30px 0px;
+}
+
+@media screen and (max-width: 1080px) {
+  iframe {
+    width: 100vw !important;
+  }
+}
+iframe {
+  height: 50vh;
+  width: 70%;
+}
+.video {
+  margin: 40px;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.special-text{
+    color: black;
+    font-weight: 400;
 }
