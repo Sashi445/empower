@@ -42,11 +42,6 @@ header{
 }
 
 
-.logo{
-    width: 40%;
-}
-
-
 .middle .inner{
     height: 100%;
 }
@@ -140,4 +135,31 @@ iframe {
 .special-text{
     color: black;
     font-weight: 400;
+}
+
+.image-container{
+    height: 30vh;
+}
+
+.image-container img{
+    height: 100%;
+    object-fit: fill ;
+}
+
+.course-item .card{
+    height: 100%;
+}
+
+.logo{
+    width: 60%;
+}
+
+@media screen and (max-width: 576px) {
+
+
+
+    .logo{
+        width: 90%;
+    }
+    
 }
