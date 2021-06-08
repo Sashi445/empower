@@ -9,13 +9,10 @@ section{
     min-height: 100vh;
 }
 
-.navbar{
-    background-color: transparent;
-}
 
-.nav-link{
+/* .nav-link{
     color:white
-}
+} */
 
 header{
     position: fixed;
@@ -189,19 +186,20 @@ iframe {
     width: 100%;
 }
 
-.navbar{
-    background-color: #EB9741;
+
+.logo{
+    height: 100%;
+    scale: 1.3;
 }
 
+
 @media screen and (max-width: 576px) {
-    .navbar-toggler{
-        display: inline;
-    }
     .logo-item{
         width: 60%;
     }
     .logo-item .logo{
-        width: 50%;
+        width: 60%;
+        scale: 1.2;
     }
     .button-item{
         width: 20%;
