@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 @import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 section{
     min-height: 100vh;
@@ -150,16 +152,58 @@ iframe {
     height: 100%;
 }
 
-.logo{
-    width: 60%;
+.course-item .card .card-header .card-title{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.course1 .card-header{
+    background-color: #f59f0a;
+}
+
+.navbar{
+    max-height: 10vh;
+}
+
+/* .course1 .card-body, .course1 .card-footer, .course1{
+    background-color: #fabe24;
+} */
+
+.course2 .card-header{
+    background-color: #10b880;
+}
+
+/* .course2 .card-body, .course2 .card-footer{
+    background-color: #35d398;
+} */
+
+.course3 .card-header{
+    background-color: #ef4444;
+}
+
+/* .course3 .card-body, .course3 .card-footer{
+    background-color: #f97071;
+} */
+
+.card-footer{
+    width: 100%;
+}
+
+.navbar{
+    background-color: #EB9741;
 }
 
 @media screen and (max-width: 576px) {
-
-
-
-    .logo{
-        width: 90%;
+    .navbar-toggler{
+        display: inline;
     }
-    
+    .logo-item{
+        width: 60%;
+    }
+    .logo-item .logo{
+        width: 50%;
+    }
+    .button-item{
+        width: 20%;
+    }
 }
