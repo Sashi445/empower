@@ -192,6 +192,10 @@ iframe {
     scale: 1.3;
 }
 
+.navbar-color{
+    background-color: #382D47;
+}
+
 
 @media screen and (max-width: 576px) {
     .logo-item{
