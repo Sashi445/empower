@@ -25,11 +25,6 @@ header{
     z-index: 2;
 }
 
-.carousel-item img{
-    width: 100%;
-    height: 45vh;
-}
-
 .illustration{
     height: 30vh;
 }
@@ -205,11 +200,20 @@ iframe {
     max-height: 100%;
 }
 
+.carousel-item img{
+    width: 100%;
+    height: 45vh;
+}
+
 @media screen and (max-width: 992px) {
     .logo-container{
         height: 70px;
         width: 140px;
         padding: 6px;   
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 40vh;
     }
 }
 
@@ -218,5 +222,9 @@ iframe {
         height: 65px;
         width: 130px;
         padding: 7px;   
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 30vh;
     }
 }
